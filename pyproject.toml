@@ -1,0 +1,18 @@
+[project]
+name = "knn-bikeshare-regression"
+version = "0.1.0"
+description = "Uses k-Nearest Neighbors (knn) model for a regression problem to predict the total number of bikes rented on a given day."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.9.2",
+    "scikit-learn>=1.5.2",
+    "ucimlrepo>=0.0.7",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "jupyterlab>=4.3.1",
+    "shap>=0.46.0",
+]
